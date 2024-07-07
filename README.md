@@ -1,4 +1,5 @@
-####BB84 Protocol:
+BB84 Protocol:
+
 In the first phase, Alice will communicate to Bob over a quantum channel.
 Alice begins by choosing a random string of bits and for each bit, Alice will randomly choose a
 basis, rectilinear or diagonal, by which to encode the bit. She will transmit a photon for each bit
@@ -11,17 +12,16 @@ In the second phase, Bob will notify Alice over any insecure channel what basis 
 measure each photon. Alice will report back to Bob whether he chose the correct basis for each
 photon. At this point Alice and Bob will discard the bits corresponding to the photons which Bob
 measured with a different basis.
+
+
+![shifted key](https://github.com/rachitverma1030/BB84_python-implementation/assets/69762917/fa835b41-cc52-4315-8803-bb5625d437e8)
+
+
 Provided no errors occurred or no one manipulated the photons, Bob and Alice should now both
 have an identical string of bits which is called a sifted key.
 The example above shows the bits Alice chose, the bases she encoded them in, the bases Bob
 used for measurement, and the resulting sifted key after Bob and Alice discarded their bits as just
 mentioned.
-
-
-
-
-
-
 
 
 Alice and Bob agree upon a random subset of the bits to compare to ensure consistency. If the bits
