@@ -34,8 +34,8 @@ replicate a particle of unknown state. Since Eve will not know what bases Alice 
 the bit until after Alice and Bob discuss their measurements, Eve will be forced to guess. If she
 measures on the incorrect bases, the Heisenberg Uncertainty Principle ensures that the information
 encoded on the other bases is now lost. Thus when the photon reaches Bob, his measurement will
-now be random and he will read a bit incorrectly 50 percentage of the time. Given that Eve will
-choose the measurement basis incorrectly on average 50 percentage of the time, 25 percentage of
+now be random and he will read a bit incorrectly 50% of the time. Given that Eve will
+choose the measurement basis incorrectly on average 50% of the time, 25 % of
 Bob’s measured bits will differ from Alice . If Eve has eavesdropped on all the bits then after n bit
 comparisons by Alice and Bob, they will reduce the probability that Eve will go undetected to ¾n.
 The chance that an eavesdropper learned the secret is thus negligible if a sufficiently long sequence
